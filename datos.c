@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "datos.h"
+#include "calculos.h"
 
 void mostrarMenu() {
     printf("\n MENU:\n");
@@ -208,4 +209,3 @@ void mostrarResultado3D(double superficie, double volumen) {
 	printf("Superficie: %.2lf\n", superficie);
 	printf("Volumen: %.2lf\n", volumen);
 }
-
