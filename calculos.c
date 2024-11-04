@@ -79,7 +79,7 @@ double volumenCuboide(double largo, double ancho, double alto){
 }
 
 double superficieCilindro(double radio, double altura){
-	return 2*pi*radio(radio+altura);
+	return 2*pi*radio*(radio+altura);
 }
 double volumenCilindro(double radio, double altura){
 	return pi*radio*radio*altura;
@@ -93,9 +93,10 @@ double volumenEsfera(double radio){
 }
 
 double superficieCono(double radio, double altura){
-	double apotema = sqrt(radio*radio + altura*altura);
-	return (pi*radio*radio)+(pi*radio*apotema);
+    double apotema = sqrt(radio*radio + altura*altura);
+    return (pi*radio*radio) + (pi*radio*apotema);
 }
+
 double volumenCono(double radio, double altura){
 	return (pi*radio*radio*altura)/3;
 }

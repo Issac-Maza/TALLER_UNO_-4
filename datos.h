@@ -3,7 +3,7 @@
 
 void mostrarMenu();
 void solicitarDatosFigura(int figura);
-void mostrarResultados(double resultado1,double resultado2);
+void mostrarResultado(double area, double perimetro);
+void mostrarResultado3D(double superficie, double volumen);
 
 #endif
-
